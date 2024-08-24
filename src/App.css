@@ -1,0 +1,19 @@
+.container {
+  margin-top: 20px;
+}
+
+.category {
+  margin-bottom: 20px;
+}
+
+.widget-cards {
+  display: flex !important;
+  flex-wrap: wrap;
+}
+
+.widget-cards .card {
+  margin: 10px;
+}
+.widget{
+  display: flex !important;
+}
