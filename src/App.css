@@ -1,32 +1,51 @@
-
-/* src/index.css or App.css */
-
-/* Media Queries for small screens */
-@media (max-width: 600px) {
-  body {
-    font-size: 14px;
-  }
-
-  h3 {
-    font-size: 18px;
-  }
-
-  .MuiButton-root {
-    font-size: 14px;
-  }
-
-  .MuiTableCell-root {
-    font-size: 14px;
-  }
+/* src/App.css */
+.App {
+  text-align: center;
+  padding: 20px;
 }
 
-/* Media Queries for medium screens */
-@media (max-width: 1024px) {
-  body {
-    font-size: 16px;
-  }
+.search-bar {
+  margin-bottom: 20px;
+}
 
-  h3 {
-    font-size: 20px;
-  }
+.search-bar input {
+  padding: 10px;
+  width: 300px;
+}
+
+.search-bar button {
+  padding: 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.book-card {
+  width: 200px;
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+}
+
+.book-card img {
+  max-width: 150px;
+  max-height: 200px;
+  margin-bottom: 10px;
+}
+
+.book-details h2 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.book-details p {
+  font-size: 14px;
+  color: #555;
 }
