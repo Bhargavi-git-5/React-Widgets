@@ -3,7 +3,7 @@ import React from 'react';
 import BookCard from './BookCard';
 
 const BookList = ({ books }) => {
-  if (books.length === 0) return <p>No books found.</p>;
+  if (books.length === 0) return;
 
   return (
     <div className="book-list">

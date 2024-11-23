@@ -18,7 +18,7 @@ const SearchBar = ({ onSearch }) => {
     <div className="search-bar">
       <input
         type="text"
-        placeholder="Search for a book..."
+        placeholder="Alexa!Search for a book..."
         value={searchTerm}
         onChange={handleInputChange}
       />
