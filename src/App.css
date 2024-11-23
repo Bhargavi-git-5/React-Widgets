@@ -1,31 +1,3 @@
-.container {
-  margin-top: 20px;
-}
-
-.category {
-  margin-bottom: 20px;
-}
-
-.widget-cards {
-  display: flex !important;
-  flex-wrap: wrap;
-}
-
-.widget-cards .card {
-  margin: 10px;
-}
-.widget{
-  display: flex !important;
-}.App {
-  text-align: center;
-}
-
-.widget {
-  border: 1px solid #ccc;
-  margin: 10px;
-  padding: 10px;
-  display: inline-block;
-}
 
 /* src/index.css or App.css */
 
